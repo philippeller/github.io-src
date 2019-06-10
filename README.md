@@ -7,4 +7,6 @@ testing:
 * goto localhost:8000
 
 deploy:
-* make github
+* make publish
+* cd output/
+* push everything
