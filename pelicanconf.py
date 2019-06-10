@@ -45,3 +45,6 @@ IGNORE_FILES = ['.ipynb_checkpoints']   # Prevent parsing checkpoints files
 THEME = 'theme/'
 
 BIO = 'Blah blah'
+
+
+DISQUS_SITENAME = 'https-philippeller-github-io'
