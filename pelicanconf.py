@@ -48,3 +48,6 @@ BIO = 'Blah blah'
 
 
 DISQUS_SITENAME = 'https-philippeller-github-io'
+
+
+GOOGLE_ANALYTICS = "UA-141804640-1"
