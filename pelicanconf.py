@@ -53,7 +53,7 @@ MARKDOWN = {
 
 THEME = 'theme/'
 
-BIO = 'Blah blah'
+BIO = 'Articles by Philipp Eller, all material copyrighted, licensed under <a href="(https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>' 
 
 
 DISQUS_SITENAME = 'https-philippeller-github-io'
