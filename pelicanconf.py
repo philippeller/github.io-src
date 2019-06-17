@@ -7,7 +7,7 @@ SITENAME = 'Andromediary'
 SITEURL = ''
 
 PATH = 'content'
-STATIC_PATHS =('notebooks',)
+STATIC_PATHS =('notebooks', 'content/spherical_opt')
 
 TIMEZONE = 'Europe/Paris'
 
@@ -36,11 +36,20 @@ DEFAULT_PAGINATION = 10
 MARKUP = ('md', 'ipynb')                # Add 'ipynb'
 PLUGIN_PATHS = ('pelican-plugins', )       # Ensure your plugin path is in it
 #PLUGINS = ['ipynb.markup']             # Name of the plugin
-PLUGINS = ['ipynb2pelican']             # Name of the plugin
+PLUGINS = ['ipynb2pelican', 'render_math', 'figure-ref']             # Name of the plugin
 IGNORE_FILES = ['.ipynb_checkpoints']   # Prevent parsing checkpoints files
 
 #IPYNB_USE_METACELL = True
-
+   # Markdown Plugins
+MARKDOWN = {
+    'extension_configs': {
+        'markdown.extensions.codehilite': {'css_class': 'highlight'},
+        'markdown.extensions.extra': {},
+        'markdown.extensions.meta': {},
+        'figureAltCaption':{},
+    },
+    'output_format': 'html5',
+}
 
 THEME = 'theme/'
 
