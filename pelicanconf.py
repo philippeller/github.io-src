@@ -55,6 +55,8 @@ THEME = 'theme/'
 
 BIO = 'Articles by Philipp Eller, all material copyrighted, licensed under <a href="(https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>' 
 
+MATH_JAX = {'message_style' : None}
+
 
 DISQUS_SITENAME = 'https-philippeller-github-io'
 
